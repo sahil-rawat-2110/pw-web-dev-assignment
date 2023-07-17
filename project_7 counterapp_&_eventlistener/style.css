@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 5px black;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+button{
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#displayvalue{
+    font-size: 25px;
+    padding: 5px 15px;
+    border: 1px solid black;
+}
+
+span{
+    font-size: 30px;
+}
+
+
+
+/* EventListner */
+
+#eventListener{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+}
+
+#onclick{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#doubleclick{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#mouseover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -25px;
+}
+
+#mouseout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -25px;
+}
+
+#display {
+   color: rgb(49, 13, 192);
+   margin-top: -25px;
+}
+  
+#input-box {
+  font-size: 20px;
+  margin-top: -25px;
+}
+
+#display_2 {
+  font-size: 30px;
+}
