@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+  }
+ 
+  .navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 5%;
+      height: 15vh;
+  }
+  
+  ul{
+      display: flex;
+      align-items: center; 
+      gap: 50px; 
+      margin-right: 50px; 
+  }
+  
+  ul li{
+      list-style: none;
+      font-weight: 600;
+  }
+  
+  ul li a{
+      text-decoration: none;
+      color: black;
+  }
+  
+  .medifine_logo{
+      width: 150px;
+  }
+  
+  main {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    gap: 15px;
+  }
+  
+  form h1{
+    text-align: center;
+
+  }
+    
+  form div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  form div label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  form div input{
+    border-radius: 10px;
+    border: transparent;
+    padding: 5px 10px;
+  }
+
+
+  form div textarea{
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+    resize: none;
+    height: 100px;
+  }
+
+  form button{
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    background-color: #20BC7E;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+
+
+
+
+
+
+
+
+
+

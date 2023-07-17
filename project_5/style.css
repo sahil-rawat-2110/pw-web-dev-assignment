@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+    
+}
+nav{
+    margin: 20px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px; 
+    list-style: none;
+    font-size: 20px;
+}
+.Home_nav_button{
+    padding: 5px 10px;
+    background: rgb(100, 100, 224);
+    border-radius: 15px;
+}
+li:hover{
+    cursor: pointer;
+
+}
+img:hover{
+    cursor: pointer;
+}
+.menu{
+    display: none;
+    width: 20px;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    margin: 20px;
+    max-width: 100vw;
+}
+.intro_line_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+.intro_line_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.intro_line_2 h1{
+    font-size: 60px;
+}
+.intro_line_2 h2{
+    font-size: 35px;
+    color: rgb(197, 197, 89);
+}
+
+.left_intro img {
+    height: 45px;
+}
+.right_intro img{
+    width: 30vw;
+    
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    flex-direction: column;
+
+}
+.projects h1{
+    font-size: 40px;
+}
+.project_underline{
+    border-bottom: 10px solid blue;
+    width: 135px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.project_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.image img{
+    width: 20vw;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.contact h1{
+    font-size: 40px;
+}
+.contact_underline{
+    border-bottom: 10px solid blue;
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.contact_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.contact_icons img{
+    width: 30px;
+}
+
+ 
+@media screen and (max-width: 576px){
+    nav ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+
+    .intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+
+
+    .intro_line_1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+    }
+    .intro_line_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .intro_line_2 h1{
+        font-size: 40px;
+    }
+    .intro_line_2 h2{
+        font-size: 25px;
+    }
+    
+    .left_intro img {
+        height: 45px;
+    }
+    .right_intro img{
+        width: 60vw;
+        
+    }
+
+
+    .projects h1{
+        font-size: 35px;
+    }
+
+    .project_underline{
+        border-bottom: 10px solid blue;
+        width: 135px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .project_images{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    .image img{
+        width: 55vw;
+    }
+    
+    .contact h1{
+        font-size: 35px;
+    }
+    .contact_underline{
+        border-bottom: 10px solid blue;
+        width: 180px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+
+
+
+
+
+
+
+
+    
+}

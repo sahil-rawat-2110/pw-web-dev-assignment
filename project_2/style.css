@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    list-style: none;
+    font-weight: 600;
+    margin-right: 460px;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color:#5955b3;
+}
+button{
+    background-color: #5955b3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+}
+.contact_us{
+    margin-right: 100px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_side{
+    margin-left: 30px;
+}
+h1{
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+span{
+    color: #5955b3;
+}
+.services{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.right_side img{
+    height: 600px;
+    width: 900px;
+    margin-right: 100px;
+}
